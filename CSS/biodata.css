@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* Warna teks default */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff; /* Putih agar kontras dengan background */
+    margin-bottom: 30px;
+}
+
+.kotak {
+    display: flex;
+    flex-direction: column; /* Tetap untuk stack vertikal */
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85); /* Transparan putih */
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center; /* Pusatkan teks */
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Teks dalam kotak tetap gelap */
+    text-align: center; /* Pusatkan teks */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff; /* Warna teks tombol */
+    background-color: #10b981; /* Hijau cerah */
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #059669; /* Hijau lebih gelap */
+    transform: scale(1.05);
+    text-decoration: none;
+}
